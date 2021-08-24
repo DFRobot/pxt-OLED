@@ -4,7 +4,6 @@ namespace OLEDV1 {
     //%blockId=OLEDV1_INIT
     //%block="INIT_oled"
     export function initDisplay(): void {
-        //init();
         cmd(0xAE);  // Set display OFF
         cmd(0xD5);  // Set Display Clock Divide Ratio / OSC Frequency 0xD4
         cmd(0x80);  // Display Clock Divide Ratio / OSC Frequency 
@@ -31,10 +30,6 @@ namespace OLEDV1 {
         clear();
     }
     
-    // //% advanced=true shim=i2c::init
-    // function init(): void {
-    //     return;
-    // }
 
     //%weight=60
     //%blockId=OLEDV1_Clear
