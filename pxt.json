@@ -9,9 +9,7 @@
         "README.md",
         "OLEDV1.ts",
         "_locales/zh/OLEDV1-strings.json",
-        "i2c.cpp",
-        "shims.d.ts",
-        "enums.d.ts"
+        "i2c.cpp"
     ],
     "testFiles": [],
     "targetVersions": {
