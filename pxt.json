@@ -1,6 +1,6 @@
 {
     "name": "OLEDV1",
-    "version": "1.2.6",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*"
