@@ -10,7 +10,10 @@
     "files": [
         "README.md",
         "OLEDV1.ts",
-        "_locales/zh/OLEDV1-strings.json"
+        "_locales/zh/OLEDV1-strings.json",
+        "shims.d.ts",
+        "i2c.cpp",
+        "enums.d.ts"
     ],
     "testFiles": [
     ],
