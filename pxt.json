@@ -2,21 +2,24 @@
     "name": "OLEDV1",
     "version": "1.2.6",
     "description": "",
-    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
         "OLEDV1.ts",
         "_locales/zh/OLEDV1-strings.json",
-        "shims.d.ts",
         "i2c.cpp",
+        "shims.d.ts",
         "enums.d.ts"
     ],
-    "testFiles": [
+    "testFiles": [],
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
     ],
-    "public": false,
-    "installedVersion": "workspace:c2329477-5911-425f-72ba-ad704602bac6"
+    "preferredEditor": "tsprj"
 }
